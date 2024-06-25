@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisConfig", "RedisConfig\RedisConfig.csproj", "{68B22773-7D85-4138-854C-C382F0F9809B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provider", "Provider\Provider.csproj", "{2385AA3E-58C6-4DA9-B8C1-0E79E5C7B58A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{A87567FD-9761-479C-AC82-766342F1E81F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68B22773-7D85-4138-854C-C382F0F9809B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B22773-7D85-4138-854C-C382F0F9809B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B22773-7D85-4138-854C-C382F0F9809B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B22773-7D85-4138-854C-C382F0F9809B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2385AA3E-58C6-4DA9-B8C1-0E79E5C7B58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2385AA3E-58C6-4DA9-B8C1-0E79E5C7B58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2385AA3E-58C6-4DA9-B8C1-0E79E5C7B58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2385AA3E-58C6-4DA9-B8C1-0E79E5C7B58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87567FD-9761-479C-AC82-766342F1E81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87567FD-9761-479C-AC82-766342F1E81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87567FD-9761-479C-AC82-766342F1E81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87567FD-9761-479C-AC82-766342F1E81F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73B71114-A682-47C9-8F5B-4B9A19F01CF1}
+	EndGlobalSection
+EndGlobal
